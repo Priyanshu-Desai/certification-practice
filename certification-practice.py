@@ -51,12 +51,20 @@ az900radio.place(relx=0.5, rely=0.5, anchor='center')
 nextbutton = ttk.Button(root, text='Next -->', command=choose_certification)
 nextbutton.pack()
 nextbutton.place(relx=0.9, rely=0.9, anchor='center')
-print(certifications)
+
 #givequestions to user on certification
 nextbutton.wait_variable(waitstate)
 loop = True
-# while loop == True:
-#     if
+while loop == True:
+    if chosenCertification == 'az900':
+        selectedQuestion = choice(az900)
+        
+    questionText = selectedQuestion['question']
+    optionAText = selectedQuestion['options']['A']
+    optionBText = selectedQuestion['options']['B']
+    optionCText = selectedQuestion['options']['C']
+    optionDText = selectedQuestion['options']['D']
+    loop = False
 
 #execute tkinter
 root.mainloop()
