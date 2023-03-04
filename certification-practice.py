@@ -1,10 +1,15 @@
 #importing modules
+#import pdb; pdb.set_trace()
 from random import choice
+import json
 from tkinter import *
 from tkinter import ttk
 
 #opening files
-az900 = open("questions/AZ-900.json", "r")
+az900 = open("questions/az900.json", "r")
+
+#creating python objects from json
+az900 = json.load(az900)
 
 #setting up Tk with a title
 root = Tk()
@@ -33,21 +38,25 @@ waitstate = IntVar()
 welcometext = ttk.Label(root, text="Welcome!\nHere you can practice exam questions for a variety of certifications!\nClick next to get started\n")
 welcometext.pack()
 welcometext.place(relx=0.5, rely=0, anchor='n')
-welcomebutton = ttk.Button(root, text='Next -->', command=clear_frame)
-welcomebutton.pack()
-welcomebutton.place(relx=0.5, rely=0.5, anchor='center')
+nextbutton = ttk.Button(root, text='Next -->', command=clear_frame)
+nextbutton.pack()
+nextbutton.place(relx=0.5, rely=0.5, anchor='center')
+nextbutton.wait_variable(waitstate)
 
 #give certification options afer empty frame
-welcomebutton.wait_variable(waitstate)
 certifications = StringVar()
-az900 = ttk.Radiobutton(root, text="AZ-900", variable=certifications, value="az900")
-az900.pack()
-az900.place(relx=0.5, rely=0.5, anchor='center')
-certButton = ttk.Button(root, text='Next -->', command=choose_certification)
-certButton.pack()
-certButton.place(relx=0.9, rely=0.9, anchor='center')
-welcomebutton.wait_variable(waitstate)
-print(chosenCertification)
+az900radio = ttk.Radiobutton(root, text="AZ-900", variable=certifications, value="az900")
+az900radio.pack()
+az900radio.place(relx=0.5, rely=0.5, anchor='center')
+nextbutton = ttk.Button(root, text='Next -->', command=choose_certification)
+nextbutton.pack()
+nextbutton.place(relx=0.9, rely=0.9, anchor='center')
+print(certifications)
+#givequestions to user on certification
+nextbutton.wait_variable(waitstate)
+loop = True
+# while loop == True:
+#     if
 
 #execute tkinter
 root.mainloop()
