@@ -1,6 +1,6 @@
 [
   {
-    "question": "An IT Engineer needs to create a Virtual Machine in Azure. Currently, the IT Engineer has an Android OS based workstation. Which of the following can the IT Engineer use to create the desired Virtual Machine in Azure?[select 3]",
+    "question": "An IT Engineer needs to create a Virtual Machine in Azure.\nCurrently, the IT Engineer has an Android OS based workstation.\nWhich of the following can the IT Engineer use to create the desired Virtual Machine in Azure.\n[select 3]",
     "options": {
       "A": "Microsoft PowerApps",
       "B": "Azure Cloud Shell",
@@ -10,7 +10,7 @@
     "answer": "BCD"
   },
   {
-    "question": "Which of the following customers are eligible to use Azure Government to develop a cloud solution? (Select TWO)",
+    "question": "Which of the following customers are eligible to use\nAzure Government to develop a cloud solution.\n(Select TWO)",
     "options": {
       "A": "Canadian government contractors.",
       "B": "European government contractors",
