@@ -31,6 +31,17 @@ def choose_certification():
 #defining function to get the value of selected checkbuttons in question
 def submit_question():
     global chosenAnswers
+    chosenAnswers = ''
+    if optionAVar.get() == True:
+        chosenAnswers += 'A'
+    if optionBVar.get() == True:
+        chosenAnswers += 'B'
+    if optionCVar.get() == True:
+        chosenAnswers += 'C'
+    if optionDVar.get() == True:
+        chosenAnswers += 'D'
+
+    clear_frame()
 
 # creating a 500 by 500 window
 frame = ttk.Frame(root, width=500, height=500)
@@ -73,42 +84,47 @@ while loop == True:
     optionBText = selectedQuestion['options']['B']
     optionCText = selectedQuestion['options']['C']
     optionDText = selectedQuestion['options']['D']
+    answer = selectedQuestion['answer']
 
     #setting control variables to capture state of checkbox
-    optionA = BooleanVar()
-    optionB = BooleanVar()
-    optionC = BooleanVar()
-    optionD = BooleanVar()
+    optionAVar = BooleanVar()
+    optionBVar = BooleanVar()
+    optionCVar = BooleanVar()
+    optionDVar = BooleanVar()
 
     #creating taxt label
     question = ttk.Label(root, text=questionText)
     question.pack()
     question.place(relx=0.5, rely=0.1, anchor='n')
 
-    #creating cherckboxes if the value of the option is not None
-    print(optionAText)
-    print(optionBText)
-    print(optionCText)
-    print(optionDText)
+    #creating checkboxes if the value of the option is not None
     if optionAText != None:
-        optionA = ttk.Checkbutton(root, text=optionAText, variable=optionA)
+        optionA = ttk.Checkbutton(root, text=optionAText, variable=optionAVar)
         optionA.pack()
         optionA.place(relx='0.5', rely='0.3', anchor='center')
     if optionBText != None:
-        optionB = ttk.Checkbutton(root, text=optionBText, variable=optionB)
+        optionB = ttk.Checkbutton(root, text=optionBText, variable=optionBVar)
         optionB.pack()
         optionB.place(relx='0.5', rely='0.4', anchor='center')
     if optionCText != None:
-        optionC = ttk.Checkbutton(root, text=optionCText, variable=optionC)
+        optionC = ttk.Checkbutton(root, text=optionCText, variable=optionCVar)
         optionC.pack()
         optionC.place(relx='0.5', rely='0.5', anchor='center')
     if optionDText != None:
-        optionD = ttk.Checkbutton(root, text=optionDText, variable=optionD)
+        optionD = ttk.Checkbutton(root, text=optionDText, variable=optionDVar)
         optionD.pack()
         optionD.place(relx='0.5', rely='0.6', anchor='center')
 
     #creating submit Button
+    submitButton = ttk.Button(root, text='Submit', command=submit_question)
+    submitButton.pack()
+    submitButton.place(relx=0.9, rely=0.9, anchor='center')
+    submitButton.wait_variable(waitstate)
 
+    if chosenAnswers == answer:
+        print('correct')
+    else:
+        print('incorrect')
 
     #exiting loop
     loop = False
