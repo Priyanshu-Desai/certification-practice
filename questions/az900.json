@@ -18,5 +18,105 @@
       "D": "United States government contractors"
     },
     "answer": "CD"
+  },
+  {
+    "question": "A company is planning to set up an Azure Free Account.\nDoes the Standard Support plan come along with the Azure Free Account?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A company is planning to use its Azure Free Account for hosting production-based resources.\nDoes the Azure Free Account allow you to host production-based resources?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Your company is planning to use Azure AD for the\nauthentication of the resources defined in Azure.\nDoes Azure AD have the capabilities to implement\nauthorization using Azure RBAC to secure resources?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Does the Azure AD Premium P2 tier guarantee any Azure AD\nServices available with the availability higher than 99.99%?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A company plans to upgrade its current Azure AD Free plan to the Azure AD Premium P1 plan.\nDoes Microsoft provide the same feature set for both plans?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A company wants to try out some services which Azure is offering in Public Preview.\nDo the services in Public Preview in Azure come with an SLA?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A company wants to try out some services which Azure is offering in preview.\nDoes Microsoft provide a separate portal to work with preview features?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Your company needs to deploy and manage several\nAzure Web apps using the Azure App service resource.\nWhich of the following URL would you use to manage the Azure Web Apps?",
+    "options": {
+      "A": "https://portal.microsoft.com",
+      "B": "https://portal.azure.com",
+      "C": "https://portal.azurewebsites.net",
+      "D": "https://portal.azurewebsites.com"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A company needs to store 2 TB worth of data that is infrequently used.\nThe data needs to be accessed via Power BI.\nWhich of the following could be used as a cost-effective data layer for this requirement?",
+    "options": {
+      "A": "Azure SQL databases",
+      "B": "Azure PostgreSQL",
+      "C": "Azure Cosmos DB",
+      "D": "Azure Data Lake"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A company wants to ensure that their company's users are authenticated\nwhen they access resources defined in their Azure account.\nWhich of the following is the correct definition of authentication?",
+    "options": {
+      "A": "This specifies the type of service you can use in Azure.",
+      "B": "This specifies the type of data you can use in Azure.",
+      "C": "This is the act of providing legitimate credentials.",
+      "D": "This specifies what you can do in Azure."
+    },
+    "answer": "C"
   }
 ]
