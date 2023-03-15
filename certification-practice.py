@@ -40,8 +40,39 @@ def submit_question():
         chosenAnswers += 'C'
     if optionDVar.get() == True:
         chosenAnswers += 'D'
-
     clear_frame()
+
+#creating function to quit program
+def quit():
+    global loop
+    loop = False
+    root.destroy()
+
+#creating function for correct answer
+def correct_answer():
+    text = ttk.Label(root, text='Correct', foreground='green')
+    text.pack()
+    text.place(relx=0.5, rely=0.5, anchor='center')
+    quitButton = ttk.Button(root, text='Quit', command=quit)
+    quitButton.pack()
+    quitButton.place(relx=0.1, rely=0.9, anchor='center')
+    nextButton = ttk.Button(root, text='Next -->', command=clear_frame)
+    nextButton.pack()
+    nextButton.place(relx=0.9, rely=0.9, anchor='center')
+    quitButton.wait_variable(waitstate)
+
+#creating function for incorrect answer
+def incorrect_answer():
+    text = ttk.Label(root, text='Incorrect', foreground='red')
+    text.pack()
+    text.place(relx=0.5, rely=0.5, anchor='center')
+    quitButton = ttk.Button(root, text='Quit', command=quit)
+    quitButton.pack()
+    quitButton.place(relx=0.1, rely=0.9, anchor='center')
+    nextButton = ttk.Button(root, text='Next -->', command=clear_frame)
+    nextButton.pack()
+    nextButton.place(relx=0.9, rely=0.9, anchor='center')
+    quitButton.wait_variable(waitstate)
 
 # creating a 500 by 500 window
 frame = ttk.Frame(root, width=500, height=500)
@@ -122,12 +153,12 @@ while loop == True:
     submitButton.wait_variable(waitstate)
 
     if chosenAnswers == answer:
-        print('correct')
+        correct_answer()
     else:
-        print('incorrect')
+        incorrect_answer()
 
     #exiting loop
-    loop = False
+    # loop = False
 
 #execute tkinter
 root.mainloop()
