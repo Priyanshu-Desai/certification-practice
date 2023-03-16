@@ -118,5 +118,75 @@
       "D": "This specifies what you can do in Azure."
     },
     "answer": "C"
+  },
+  {
+    "question": "A company is planning to create several Virtual Machines in Azure.\nWhich of the following is the right category to which the Azure Virtual Machine belongs?",
+    "options": {
+      "A": "Infrastructure as a service (IaaS)",
+      "B": "Platform as a service (PaaS)",
+      "C": "Software as a service (SaaS)",
+      "D": "Function as a service (FaaS)"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "A company needs to create around 50 customized Virtual Machines.\nOut of these, only 20 are Windows-based Virtual machines which are identical,\nand 30 are Ubuntu Machines, again of identical configuration.\nAll virtual machines will be used in a load-balanced configuration.\nWhich of the following would help reduce the administrative effort required to deploy the machines?",
+    "options": {
+      "A": "Azure Load Balancer",
+      "B": "Azure Web Apps",
+      "C": "Azure Traffic Manager",
+      "D": "Azure Scale sets"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A company wants to use Azure for the deployment of various solutions.\nThey want to ensure that whenever users authenticate to Azure, they have to use Multi-Factor Authentication.\nWhich of the following can help them achieve this?",
+    "options": {
+      "A": "Azure Service Trust Portal",
+      "B": "Azure Security Centre",
+      "C": "Azure DDoS protection",
+      "D": "Azure Privileged Identity Management"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A company is planning to host 2 Virtual Machines in Azure.\nWould you still incur a cost on the storage?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is true when it comes to SaaS?",
+    "options": {
+      "A": "You are responsible for scalability of the solution.",
+      "B": "You are responsible for the maintenance of the underlying hardware",
+      "C": "You are responsible for configuring the application settings.",
+      "D": "You are responsible for the high availability of the solution."
+    },
+    "answer": "C"
+  },
+  {
+    "question": "A company is planning to set up an Enterprise Azure Subscription.\nDo they need to have a valid Microsoft Azure account on EA Portal\n(https://ea.azure.com/) for associating the Azure Subscription?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "Yes"
+  },
+  {
+    "question": "An IT administrator for a company has been given a PowerShell script.\nThis PowerShell script will be used to create several Virtual Machines in Azure.\nYou have to provide a machine to the IT administrator for running the PowerShell script",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "B"
   }
 ]
