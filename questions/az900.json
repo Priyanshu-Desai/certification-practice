@@ -188,5 +188,105 @@
       "D": null
     },
     "answer": "B"
+  },
+  {
+    "question": "An IT administrator for a company has been given a PowerShell script.\nThis PowerShell script will be used to create several Virtual Machines in Azure.\nYou have to provide a machine to the IT administrator for running the PowerShell script.\nYou decide to provide a LinuxOS-based machine (with Ubuntu) and use Azure Cloud Shell.\nWould this solution fit the requirement?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "A"
+  },
+  {
+    "question": "An IT administrator for a company has been given a PowerShell script.\nThis PowerShell script will be used to create several Virtual Machines in Azure.\nYou have to provide a machine to the IT administrator for running the PowerShell script.\nYou decide to provide an Azure CLI installed on a computer that has MacOS 10.13 and PowerShell 7.0.3 also installed.",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "A"
+  },
+  {
+    "question": "You decide to provide an Azure CLI installed on a computer that has MacOS 10.13 and PowerShell 7.0.3 also installed.\nAn Integration solution for the deployment of code.\nWhich of the following would be best suited for this requirement?",
+    "options": {
+      "A": "Azure Advisor",
+      "B": "Azure Cognitive Services",
+      "C": "Azure Application Insights",
+      "D": "Azure DevOps"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "A company is planning to set up a solution in Azure.\nThe solution would have the following key requirement.\nA tool that provides guidance and recommendations to improve an Azure environment.\nWhich of the following would be best suited for this requirement?",
+    "options": {
+      "A": "Azure Advisor",
+      "B": "Azure Cognitive Services",
+      "C": "Azure Application Insights",
+      "D": "Azure Devops"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "A company is planning to set up a solution in Azure.\nThe solution would have the following key requirement.\nA simplified tool to build intelligent Artificial Intelligence applications.\nWhich of the following would be best suited for this requirement?",
+    "options": {
+      "A": "Azure Advisor",
+      "B": "Azure Cognitive Services",
+      "C": "Azure Application Insights",
+      "D": "Azure Devops"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A company is planning to set up a solution in Azure.\nThe solution would have the following key requirement.\nA tool used to monitor Web applications hosted in production-based environments.\nWhich of the following would be best suited for this requirement?",
+    "options": {
+      "A": "Azure Advisor",
+      "B": "Azure Cognitive Services",
+      "C": "Azure Application Insights",
+      "D": "Azure Devops"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "A company needs to implement a solution in Azure.\nBelow are the key requirements for this solution.\nNo need for schema or Index management.\nEnsure low latency access to data from around the world.\nWhich of the following data solution would you consider for this requirement?",
+    "options": {
+      "A": "Azure SQL Database",
+      "B": "Azure CosmosDB",
+      "C": "Azure SQL Datawarehouse",
+      "D": "SQL Server Stretch database"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A company is planning to deploy Azure resources to a resource group.\nBut the resources would belong to different locations.\nCan you have resources that belong to the same resource group but be in multiple locations?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "A"
+  },
+  {
+    "question": "A company is planning to deploy Azure resources to a resource group.\nThe company is planning to assign tags to the resource groups.\nWould the resources in the resource group also inherit the same tags?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "B"
+  },
+  {
+    "question": "A company is planning to deploy Azure resources to a resource group.\nThe company is planning to assign permissions to the resource groups.\nWould the resources in the resource group also inherit the same permissions?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": null,
+      "D": null
+    },
+    "answer": "A"
   }
 ]
