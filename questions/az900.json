@@ -89,204 +89,204 @@
     },
     "answer": "A"
   },
-  {
-    "question": "Your company needs to deploy and manage several\nAzure Web apps using the Azure App service resource.\nWhich of the following URL would you use to manage the Azure Web Apps?",
-    "options": {
-      "A": "https://portal.microsoft.com",
-      "B": "https://portal.azure.com",
-      "C": "https://portal.azurewebsites.net",
-      "D": "https://portal.azurewebsites.com"
-    },
-    "answer": "B"
+{
+  "question": "An IT Engineer needs to create a Virtual Machine in Azure.\nCurrently, the IT Engineer has a Windows desktop along with the Azure Command Line Interface (CLI).\nWhich of the following would allow the IT engineer to use the Azure Command Line Interface?",
+  "options": {
+    "A": " Powershell",
+    "B": "File and Print Explorer",
+    "C": "Command Prompt",
+    "D": "Control Panel"
   },
-  {
-    "question": "A company needs to store 2 TB worth of data that is infrequently used.\nThe data needs to be accessed via Power BI.\nWhich of the following could be used as a cost-effective data layer for this requirement?",
-    "options": {
-      "A": "Azure SQL databases",
-      "B": "Azure PostgreSQL",
-      "C": "Azure Cosmos DB",
-      "D": "Azure Data Lake"
-    },
-    "answer": "D"
+  "answer": "AC"
+},
+{
+  "question": "A company is planning to set up an Azure Free Account.\nDoes the Standard Support plan come along with the Azure Free Account?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "A company wants to ensure that their company's users are authenticated\nwhen they access resources defined in their Azure account.\nWhich of the following is the correct definition of authentication?",
-    "options": {
-      "A": "This specifies the type of service you can use in Azure.",
-      "B": "This specifies the type of data you can use in Azure.",
-      "C": "This is the act of providing legitimate credentials.",
-      "D": "This specifies what you can do in Azure."
-    },
-    "answer": "C"
+  "answer": "B"
+},
+{
+  "question": "A customer is planning to create several Azure Free Accounts.\nCan a customer have an allowance of a maximum of 10 Azure Free Accounts?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "A company is planning to create several Virtual Machines in Azure.\nWhich of the following is the right category to which the Azure Virtual Machine belongs?",
-    "options": {
-      "A": "Infrastructure as a service (IaaS)",
-      "B": "Platform as a service (PaaS)",
-      "C": "Software as a service (SaaS)",
-      "D": "Function as a service (FaaS)"
-    },
-    "answer": "A"
+  "answer": "B"
+},
+{
+  "question": "Your company is planning to host resources in Azure.\nCan an administrator give access to partners who do\nnot have an Azure AD account to access resources in Azure?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "A company needs to create around 50 customized Virtual Machines.\nOut of these, only 20 are Windows-based Virtual machines which are identical,\nand 30 are Ubuntu Machines, again of identical configuration.\nAll virtual machines will be used in a load-balanced configuration.\nWhich of the following would help reduce the administrative effort required to deploy the machines?",
-    "options": {
-      "A": "Azure Load Balancer",
-      "B": "Azure Web Apps",
-      "C": "Azure Traffic Manager",
-      "D": "Azure Scale sets"
-    },
-    "answer": "D"
+  "answer": "A"
+},
+{
+  "question": "A company is planning to purchase Azure AD Premium for its Azure account.\nDoes the Azure AD Premium tier come with an SLA of 99.99%?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "A company wants to use Azure for the deployment of various solutions.\nThey want to ensure that whenever users authenticate to Azure, they have to use Multi-Factor Authentication.\nWhich of the following can help them achieve this?",
-    "options": {
-      "A": "Azure Service Trust Portal",
-      "B": "Azure Security Centre",
-      "C": "Azure DDoS protection",
-      "D": "Azure Privileged Identity Management"
-    },
-    "answer": "D"
+  "answer": "A"
+},
+{
+  "question": "A company wants to try out some services which are being offered by Azure in Public Preview.\nIs it a best practice for a company to deploy resources that are\npart of Public Preview in their production environment?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "A company is planning to host 2 Virtual Machines in Azure.\nWould you still incur a cost on the storage?",
-    "options": {
-      "A": "Yes",
-      "B": "No",
-      "C": null,
-      "D": null
-    },
-    "answer": "A"
+  "answer": "B"
+},
+{
+  "question": "A company is planning to use Azure Synapse Analytics for hosting their sales historical data.\nWhich of the following is a feature of the Azure Synapse SQL architecture?",
+  "options": {
+    "A": "High Availability",
+    "B": "Scalability",
+    "C": "Disaster Recovery",
+    "D": "Visualization"
   },
-  {
-    "question": "Which of the following is true when it comes to SaaS?",
-    "options": {
-      "A": "You are responsible for scalability of the solution.",
-      "B": "You are responsible for the maintenance of the underlying hardware",
-      "C": "You are responsible for configuring the application settings.",
-      "D": "You are responsible for the high availability of the solution."
-    },
-    "answer": "C"
+  "answer": "B"
+},
+{
+  "question": "A company is planning to create several SQL Databases in Azure.\nThey would be using the Azure SQL Database service.\nWhich of the following is the right category\nto which the Azure SQL Database service belongs to?",
+  "options": {
+    "A": "IaaS",
+    "B": "PaaS",
+    "C": "SaaS",
+    "D": "FaaS"
   },
-  {
-    "question": "A company is planning to set up an Enterprise Azure Subscription.\nDo they need to have a valid Microsoft Azure account on EA Portal\n(https://ea.azure.com/) for associating the Azure Subscription?",
-    "options": {
-      "A": "Yes",
-      "B": "No",
-      "C": null,
-      "D": null
-    },
-    "answer": "Yes"
+  "answer": "B"
+},
+{
+  "question": "A company is planning to use Azure Storage Accounts.\nThey have the following requirement.\nStorage of 2 TB of data.\nStorage of a million files.\nWould using Azure Storage fulfil these requirements?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "An IT administrator for a company has been given a PowerShell script.\nThis PowerShell script will be used to create several Virtual Machines in Azure.\nYou have to provide a machine to the IT administrator for running the PowerShell script",
-    "options": {
-      "A": "Yes",
-      "B": "No",
-      "C": null,
-      "D": null
-    },
-    "answer": "B"
+  "answer": "A"
+},
+{
+  "question": "A company is planning to use Azure Storage Accounts.\nThey have the following requirement.\nStorage Account should automatically replicate data to the secondary region.\nCan configuring the Read-Access Geo-Redundant Storage Account\nautomatically replicate data to the secondary region?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "An IT administrator for a company has been given a PowerShell script.\nThis PowerShell script will be used to create several Virtual Machines in Azure.\nYou have to provide a machine to the IT administrator for running the PowerShell script.\nYou decide to provide a LinuxOS-based machine (with Ubuntu) and use Azure Cloud Shell.\nWould this solution fit the requirement?",
-    "options": {
-      "A": "Yes",
-      "B": "No",
-      "C": null,
-      "D": null
-    },
-    "answer": "A"
+  "answer": "A"
+},
+{
+  "question": "Your company is planning to use the Azure App Service (PaaS) to host its set of web applications.\nDoes Azure provide you full control over the operating system that hosts the web applications?",
+  "options": {
+    "A": "yes",
+    "B": "no",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "An IT administrator for a company has been given a PowerShell script.\nThis PowerShell script will be used to create several Virtual Machines in Azure.\nYou have to provide a machine to the IT administrator for running the PowerShell script.\nYou decide to provide an Azure CLI installed on a computer that has MacOS 10.13 and PowerShell 7.0.3 also installed.",
-    "options": {
-      "A": "Yes",
-      "B": "No",
-      "C": null,
-      "D": null
-    },
-    "answer": "A"
+  "answer": "B"
+},
+{
+  "question": "Your company plans to use the Azure App Service (PaaS) to host its set of web applications.\nIn case of need as per requirement, does azure help in providing the\nability to scale the platform automatically in hosting the web applications?",
+  "options": {
+    "A": "yes",
+    "B": "no",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "You decide to provide an Azure CLI installed on a computer that has MacOS 10.13 and PowerShell 7.0.3 also installed.\nAn Integration solution for the deployment of code.\nWhich of the following would be best suited for this requirement?",
-    "options": {
-      "A": "Azure Advisor",
-      "B": "Azure Cognitive Services",
-      "C": "Azure Application Insights",
-      "D": "Azure DevOps"
-    },
-    "answer": "D"
+  "answer": "A"
+},
+{
+  "question": "Your company is planning to use the Azure App Service (PaaS) to host its set of web applications.\nAs part of the App Service plan, does Microsoft automatically\nprovide professional services and customizations to applications hosted in Azure Web Apps?",
+  "options": {
+    "A": "yes",
+    "B": "no",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "A company is planning to set up a solution in Azure.\nThe solution would have the following key requirement.\nA tool that provides guidance and recommendations to improve an Azure environment.\nWhich of the following would be best suited for this requirement?",
-    "options": {
-      "A": "Azure Advisor",
-      "B": "Azure Cognitive Services",
-      "C": "Azure Application Insights",
-      "D": "Azure Devops"
-    },
-    "answer": "A"
+  "answer": "B"
+},
+{
+  "question": "A company is planning to host its resources in Azure.\nThe senior management wants to know about the capital expenditure (CapEx) and operational expenditure\n (OpEx) that would be incurred when moving to Azure.\nDoes Azure provide flexibility when it comes to Operational expenditure (OpEx)?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "A company is planning to set up a solution in Azure.\nThe solution would have the following key requirement.\nA simplified tool to build intelligent Artificial Intelligence applications.\nWhich of the following would be best suited for this requirement?",
-    "options": {
-      "A": "Azure Advisor",
-      "B": "Azure Cognitive Services",
-      "C": "Azure Application Insights",
-      "D": "Azure Devops"
-    },
-    "answer": "B"
+  "answer": "A"
+},
+{
+  "question": "A company is planning to set up a Pay-as-you-go subscription in Azure.\nWould they have access to MSDN support forums?",
+  "options": {
+    "A": "Yes",
+    "B": "No",
+    "C": null,
+    "D": null
   },
-  {
-    "question": "A company is planning to set up a solution in Azure.\nThe solution would have the following key requirement.\nA tool used to monitor Web applications hosted in production-based environments.\nWhich of the following would be best suited for this requirement?",
-    "options": {
-      "A": "Azure Advisor",
-      "B": "Azure Cognitive Services",
-      "C": "Azure Application Insights",
-      "D": "Azure Devops"
-    },
-    "answer": "C"
+  "answer": "B"
+},
+{
+  "question": "A company wants to migrate its current on-premises servers to Azure.\nThey want to ensure that the servers are running even if a single Azure Data Center goes down.\nWhich of the following terms refers to the solution that needs to be in place to fulfill this requirement?",
+  "options": {
+    "A": "Fault tolerance",
+    "B": "Elasticity",
+    "C": "Scalability",
+    "D": "Low Latency"
   },
-  {
-    "question": "A company needs to implement a solution in Azure.\nBelow are the key requirements for this solution.\nNo need for schema or Index management.\nEnsure low latency access to data from around the world.\nWhich of the following data solution would you consider for this requirement?",
-    "options": {
-      "A": "Azure SQL Database",
-      "B": "Azure CosmosDB",
-      "C": "Azure SQL Datawarehouse",
-      "D": "SQL Server Stretch database"
-    },
-    "answer": "B"
+  "answer": "A"
+},
+{
+  "question": "When can an organization decommission its private cloud infrastructure hosted in its data center?",
+  "options": {
+    "A": "When they have a hybrid solution",
+    "B": "When all of their servers are in the private cloud",
+    "C": "When all of their servers are in the public cloud",
+    "D": "When all of their servers are in the public or private cloud"
   },
-  {
-    "question": "A company is planning to deploy Azure resources to a resource group.\nBut the resources would belong to different locations.\nCan you have resources that belong to the same resource group but be in multiple locations?",
-    "options": {
-      "A": "Yes",
-      "B": "No",
-      "C": null,
-      "D": null
-    },
-    "answer": "A"
+  "answer": "C"
+},
+{
+  "question": "company is planning to migrate its public website to Azure.\nWhich of the following do they need to consider when it comes to hosting their public web site on Azure?",
+  "options": {
+    "A": "They would need to reduce the number of connections to the web site.",
+    "B": "They would need to deploy a Virtual Private connection from their on-premises site to Azure.",
+    "C": "They would have to consider paying a monthly cost for the solution",
+    "D": "They would need to pay for the user data transfer onto the site."
   },
-  {
-    "question": "A company is planning to deploy Azure resources to a resource group.\nThe company is planning to assign tags to the resource groups.\nWould the resources in the resource group also inherit the same tags?",
-    "options": {
-      "A": "Yes",
-      "B": "No",
-      "C": null,
-      "D": null
-    },
-    "answer": "B"
+  "answer": "C"
+},
+{
+  "question": "A company needs a list of planned maintenance events that can affect the availability of an Azure subscription.\nWhich of the following would help them achieve this requirement?",
+  "options": {
+    "A": "App Services",
+    "B": "Resource Groups",
+    "C": "Virtual Machines",
+    "D": "Help + Support"
   },
-  {
-    "question": "A company is planning to deploy Azure resources to a resource group.\nThe company is planning to assign permissions to the resource groups.\nWould the resources in the resource group also inherit the same permissions?",
-    "options": {
-      "A": "Yes",
-      "B": "No",
-      "C": null,
-      "D": null
-    },
-    "answer": "A"
-  }
+  "answer": "D"
+},
+{
+  "question": "A company has several on-premises computers that run Windows 10.\nThey want to mount a network drive from these machines onto Azure Storage.\nWhich of the following would you consider fulfilling this requirement?",
+  "options": {
+    "A": "An Azure SQL Database",
+    "B": "An Azure SQL Datawarehouse",
+    "C": "Azure Storage account - BLOB service",
+    "D": "Azure Storage account - File service"
+  },
+  "answer": "D"
+}
 ]

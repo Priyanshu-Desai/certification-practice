@@ -7,7 +7,7 @@ from tkinter import *
 from tkinter import ttk
 
 #opening files
-az900 = open("questions/az900.json", "r")
+az900 = open("./questions/az900.json", "r")
 
 #creating python objects from json
 az900 = json.load(az900)
@@ -15,6 +15,9 @@ az900 = json.load(az900)
 #setting up Tk with a title
 root = Tk()
 root.title("cloud certification practice")
+
+#make program wait until button press
+waitstate = IntVar()
 
 #defining function to clear Frame
 def clear_frame():
@@ -75,7 +78,7 @@ def incorrect_answer():
     quitButton.wait_variable(waitstate)
 
 # creating a 500 by 500 window
-frame = ttk.Frame(root, width=500, height=500)
+frame = ttk.Frame(root, width=800, height=800)
 frame.pack()
 
 #make program wait until button press
